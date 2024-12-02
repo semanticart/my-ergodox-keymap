@@ -185,10 +185,10 @@ void keyboard_post_init_user(void) {
 
 
 
-const key_override_t delete_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_BSPC, KC_DEL);
+const key_override_t esc_magic = ko_make_basic(MOD_MASK_CTRL, KC_LEFT_BRACKET, KC_ESCAPE);
 
 // This globally defines all key overrides to be used
 const key_override_t **key_overrides = (const key_override_t *[]){
-	&delete_key_override,
+	&esc_magic,
 	NULL // Null terminate the array of overrides!
 };
