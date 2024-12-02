@@ -5,3 +5,9 @@ COMMAND_ENABLE = no
 ORYX_ENABLE = yes
 SPACE_CADET_ENABLE = no
 LTO_ENABLE = yes
+
+
+
+
+# Custom QMK here
+KEY_OVERRIDE_ENABLE = yes
