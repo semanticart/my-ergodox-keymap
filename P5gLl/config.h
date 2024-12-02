@@ -8,6 +8,6 @@
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
 #define CAPS_LOCK_STATUS
-#define SERIAL_NUMBER "P5gLl/bxW4Q"
+#define SERIAL_NUMBER "P5gLl/7avzx"
 #define LAYER_STATE_8BIT
 
